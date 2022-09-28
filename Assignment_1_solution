@@ -1,0 +1,70 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+*
+"hello"
+-87.8
+-
+/
++
+6
+
+A.*-->expressions
+   "hello"-->value
+-87.8-->float value
+- -->expression
+/-->expression
++-->expression
+6-->integer.
+
+2. What is the difference between string and variable?
+A. string is a datatype which is a combination of characters.
+variable is a container for holding the value of a particular datatype.
+Example a="Siva"
+a is a variable of holding a string literal.
+"Siva" is a string.
+
+3. Describe three different data types.
+A. integer--> Any number positive or negative not having a decimal point.
+float-->A number positive or negative which is having a decimal point.
+
+
+4. What is an expression made up of? What do all expressions do?
+A. An expression is made up of operators and operands and all expressions ultimately produce some result.
+
+
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+A. Statements represent an action or command e.g print statements, assignment statements. 
+Expression is a combination of variables, operations and values that yields a result value.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+A."bacon" will still contain 22 integer value becuase although in the second line it is writtten like "bacon+1" but it is not assigned
+to bacon.
+
+7. What should the values of the following two terms be?
+"spam" + "spamspam";
+"spam" * 3
+A.  "spam"+"spamspam" will produce "spamspamspam"
+"spam"*3 will produce "spamspamspam"
+
+8. Why is eggs a valid variable name while 100 is invalid?
+A. eggs is a valid variable name because it the first letter of the variable name is not a special character or a number.
+100 is not a valid variable name because the first letter of the variable name is a number.
+
+
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+A. x=int(variable)
+y=float(variable)
+z=str(variable)
+
+
+10. Why does this expression cause an error? How can you fix it?
+"I have eaten" + 99 + "burritos"
+
+A.this expression causes an error because 99 is an integer and we cannot concatenate an integer to a string literal.
+it can be fixed as "I have eaten"+str(99)+"burritos".
