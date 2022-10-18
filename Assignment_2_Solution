@@ -1,0 +1,141 @@
+1.What are the two values of the Boolean data type? How do you write them?
+Answer: the two values of Boolean data type are True and False.
+Example a=True
+        b=False
+
+
+2.What are the three different types of Boolean operators?
+Answer: and,or and not are the three different Boolean operators.
+
+3.Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean
+values for the operator and what it evaluate ).
+A. AND Truth Table
+    A     B      A AND B
+    True  False  False
+    False True   False
+    True True    True
+    False False  False
+  OR Truth Table
+    A    B      A OR B
+    True  True   True
+    False True  True
+    True  False  True
+    False False False
+   NOT Truth Table
+   
+   A    NOT A
+   True  False
+   False True
+
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+Answer : (5>4) and (3==5)-->False
+         not(5>4) ---->False
+         (5>4) or (3==5)-->True
+         not((5>4) or (3==5))-->False
+         (True and True) and (True==False)-->False
+         (not False) or (not True)-->True
+
+
+5. What are the six comparison operators?
+Answer: The comparison operators:
+>,>=,<,<=,==,!=
+
+
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+Answer: Equal to operator ==
+        Assignment operator =
+        equal to is used when we want to compare two variables eg if (A==B):
+        Assignment is used when we want to assign a value to a variable. eg A=5
+        
+7.Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+print('spam')
+Answer:     spam = 0
+            if spam == 10:--->First Block
+            print('eggs')
+            if spam > 5:-->Second Block
+            print('bacon')
+            else:----------->Third Block
+            print('ham')
+            print('spam')
+            print('spam')
+
+
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+Answer:
+if spam==1:
+print("Hello")
+elif spam==2:
+print("Howdy")
+else:
+print("Greetings!")
+
+
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+Answer: We can press Ctlr+C to end an endless loop
+
+
+10. How can you tell the difference between break and continue?
+Answer: break statement breaks out of the block where it is getting executed
+Example: for i in range(1,10):
+          if i==2:
+            break---------------------> breaks the for loop and control goes to next set of statements after the for loop
+      continue statement skips the current iteration and makes the control go to the next iteration
+      for i in range(1,10):
+        if i==2:
+          continue------------------> here it skips the for loop for i value equal to 2.
+
+
+
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+Answer:   example: for i in range(10):
+                      print(i,end=" ")---------------->0 1 2 3 4 5 6  7 8 9
+
+                    for i in range(0,10):
+                       print(i,end=" ")-------------> 0 1 2 3 4 5 6 7 8 9
+                    for i in range(0,10,1):
+                       print(i,end=" ")----------------->0 1 2 3 4 5 6 7 8 9
+As we can see range(0,10) here we are specifying the start and end point for the for loop.
+range(0,10,1) here we can specify the start,end point and the skip count as well that is from the start point use the skip-count till we reach the end point
+range(10)  here we are specifying the end point only so it will start from 0 (by default) and reach till 9.
+
+
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+Answer:
+for i in range(1,11):
+print(i,end=" ")----------> 1 2 3 4 5 6 7 8 9 10
+
+i=1
+while(i<11):
+print(i,end=" ")----------> 1 2 3 4 5 6 7 
+i=i+1
+
+
+
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+Answer: import spam
+        spam.bacon()
+
+
+
+
+
